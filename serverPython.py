@@ -11,6 +11,7 @@ def hello():
 def hello2():
     print("Access to test folder detected!")
     print("blabla Chuck", file=sys.stderr)
+    print("bleble Chuck", file=sys.stdout)
     return "Hello from Chuck!"
 
 
