@@ -9,7 +9,7 @@ def hello():
 @app.route("/teste")
 def hello2():
     print("Access to test folder detected!")
-    print("blablabla Chuck", file=sys.stderr)
+    print("blabla Chuck", file=sys.stderr)
     return "Hello from Chuck!"
 
 
